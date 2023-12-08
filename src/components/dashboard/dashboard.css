@@ -1,0 +1,40 @@
+.dashboard{
+    display: flex;
+    width: 100vw;
+    background-color: #E7EFFF;
+}
+.side{
+    width: 20vw;
+}
+.charts{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gender, .employe{
+    width: 20em;
+    height: 15em;
+    background-color: #fff;
+    margin-top: 1em;
+    margin-left: 1em;
+    /* position:; */
+}
+.gender-con, .employe-con{
+    
+    margin-top: 1em;
+    display: flex;
+    border-radius: 1em;
+    background-color: #fff;
+    color: #000;
+    margin-left: 2.5em;
+    /* padding: 2em 16em; */
+    width: 78vw;
+    height: 40vh;
+}
+.gen-info, .emp-info{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15em;
+    background-color: #fff;
+}
