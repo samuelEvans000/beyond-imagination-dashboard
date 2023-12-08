@@ -10,10 +10,10 @@ function App() {
     <>
       <UserProvider>
         <Router>
-        <Navbar/>
+          <Navbar />
           <Routes>
-          <Route path="/" exact Component={Login} />
-          <Route path="/dashboard" exact Component={Dashboard} />
+            <Route path="/" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </Router>
       </UserProvider>
